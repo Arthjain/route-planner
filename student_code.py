@@ -1,13 +1,3 @@
-"""
-student_code.py
-
-Explanation & pseudocode
-  https://en.wikipedia.org/wiki/A*_search_algorithm
-
-Uses a min priority queue to keep track of the least
-cost/distance values of the paths to each point.
-"""
-
 from math import sqrt
 # below used to run from python command line
 from graph_data import *
