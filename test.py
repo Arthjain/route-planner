@@ -14,12 +14,11 @@ def test(shortest_path_function):
         if path == answer_path:
             correct += 1
         else:
-            print("For start:", start, 
-                  "Goal:     ", goal,
+            print("For start:", start,
+                  "     Goal:", goal,
                   "Your path:", path,
-                  "Correct:  ", answer_path)
+                  "  Correct:", answer_path)
     if correct == len(MAP_40_ANSWERS):
         print("All tests pass! Congratulations!")
     else:
         print("You passed", correct, "/", len(MAP_40_ANSWERS), "test cases")
-    
