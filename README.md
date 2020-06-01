@@ -77,20 +77,3 @@ chart_studio.plotly module instead.
 Also just changing `import plotly.plotly as py` in the helpers.py to `import chart_studio.plotly as py` does not work. 
 
 Throws an error `AttributeError: 'Graph' object has no attribute '_node'`
-
-**_Possible Solution_** 
-
-* https://stackoverflow.com/questions/49016596/networkx-digraph-attribute-error-self-succ/49016885#49016885
-
-**Additional Info:**
-
-* https://networkx.github.io/documentation/stable/release/migration_guide_from_1.x_to_2.0.html
-
-**UPDATE NOTE**
-It appears registration and an API key are required to use chart_studio.plotly.
-
-## License
-
-The contents of this repository are covered under the [MIT License](mit_license.md)
-
-
